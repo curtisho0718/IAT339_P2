@@ -53,6 +53,15 @@ p {
   margin-top: 0;
 }
 
+label{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+input[type="text"]{
+    font-family: 'Nanum Gothic', sans-serif;
+}
 a:active{
     color:#50567D;
 }
@@ -126,8 +135,10 @@ button{
     font-family: 'Nanum Gothic', sans-serif;
     padding: 0.5rem;
     color: #000000;
-    background-color: none;
+    background-color: #ffffff00;
     border-style: solid;
+    border-color: #000000;
+    border-width: 1.5px;
     text-decoration: #ffffff1f;
     transition-property: background-color; 
     transition-duration: 0.5s;
@@ -136,7 +147,9 @@ button{
 button:hover, button:focus{
     background-color: #009de04d;
 }
-
+button[type="reset"]:hover{
+    background-color: rgba(242, 129, 150, 0.253);
+}
 /* 
   TEXT ELEMENTS -------------------
 */
