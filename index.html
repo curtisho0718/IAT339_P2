@@ -16,50 +16,50 @@
 </head>
 
 <body>
-    <header>
-        <h1>P01 - Style Guide Template</h1>
-
-        <p>A template you can use to start building out your own style guides with.</p>
-
-
-        <nav>
-            <a href="#interactive_elements">Interactive Elements</a>
-            <a href="#text_elements">Text Elements</a>
-            <a href="#combined_elements">Combined Elements</a>
-            <a href="product_listing.html">Product Listing Template</a>
-            <a href="checkout.html">Checkout Template</a>
-            <a href="#citations">Citations</a>
-        </nav>
-    </header>
+    <div class="main-80">
+        <header>
+            <h1>JYP Style Guide</h1>
+            <h2>About the Company</h2>
+            <p>JYP entertainment is one of largest entertainment companies among South Korea. It is a talent, singer, and K-pop idol agecy company established by Jin-Young Park. Since 1996, it handled many famous talent locally and internationally such as Rain, Wonder Girls, G.O.D, and Twice. </p>
 
 
-
-    <!-- INTERACTIVE ELEMENTS SECTION // -->
-    <section id="interactive_elements">
-        <h2>Interactive Elements</h2>
-
-
-        <section class="element">
-            <h3>In-text link</h3>
-            <p>
-                Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipiscing elit. Nunc bibendum porttitor sollicitudin.
-            </p>
-        </section>
-
-
-        <!-- Default Button styling section -->
-        <section class="element">
-
-            <h3>Navigation Link</h3>
             <nav>
+                <a href="#interactive_elements">Interactive Elements</a>
+                <a href="#text_elements">Text Elements</a>
+                <a href="#combined_elements">Combined Elements</a>
+                <a href="product_listing.html">Product Listing Template</a>
+                <a href="checkout.html">Checkout Template</a>
+                <a href="#citations">Citations</a>
+                             <hr>
+
+            </nav>
+        </header>
+
+
+
+        <!-- INTERACTIVE ELEMENTS SECTION // -->
+        <section id="interactive_elements">
+            <h2>Interactive Elements</h2>
+
+
+            <section class="element">
+                <h3>In-text link</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipiscing elit. Nunc bibendum porttitor sollicitudin.
+                </p>
+            </section>
+
+
+            <!-- Default Button styling section -->
+            <section class="element">
+
+                <h3>Navigation Link</h3>
+                <nav>
                     <a href="#">Home</a>
                     <a href="#">Artist</a>
                     <a href="#">Concert</a>
-            </nav>
-            
+                </nav>
 
-            <h4>CSS selector:</h4>
-            <p>.button-nav</p>
 
             <h4>Sample code:</h4>
             <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
@@ -67,8 +67,12 @@
             <a class="button-nav" href="#">Default Button</a>
             
 
-        </section>
+                <h4>Sample code:</h4>
+                <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+                <h4>Rendered element:</h4>
+                <a class="button-nav" href="#">Default Button</a>
 
+            </section>
 
         <section class="element">
             <h3>Submit/Reset Buttons</h3>
@@ -76,44 +80,48 @@
             <button type="submit">Submit</button>
         </section>
 
+            <section class="element">
+                <h3>Submit/Reset Buttons</h3>
+            </section>
 
-        <section class="element">
-            <h3>Text Input Field with Label</h3>
+
+            <section class="element">
+                <h3>Text Input Field with Label</h3>
+            </section>
+
+
+            <section class="element">
+                <h3>Radio Button with Label</h3>
+            </section>
+
+
+            <section class="element">
+                <h3>Image as a Link</h3>
+            </section>
+
+
         </section>
-
-
-        <section class="element">
-            <h3>Radio Button with Label</h3>
-        </section>
-
-
-        <section class="element">
-            <h3>Image as a Link</h3>
-        </section>
-
-
-    </section>
-    <!-- // INTERACTIVE ELEMENTS SECTION -->
+        <!-- // INTERACTIVE ELEMENTS SECTION -->
 
 
 
-    <!-- TEXT ELEMENTS SECTION // -->
-    <section id="text_elements">
-        <h2>Text Elements</h2>
+        <!-- TEXT ELEMENTS SECTION // -->
+        <section id="text_elements">
+            <h2>Text Elements</h2>
 
-        <section class="element">
-            <h3>Headings</h3>
-            <h4>CSS selector:</h4>
-            <code>
+            <section class="element">
+                <h3>Headings</h3>
+                <h4>Sample Code</h4>
+                <code>
+                    &lt;h4&gt;Rendered element:&lt;/h4&gt;  <br>
+                    &lt;h1&gt;Heading 1&lt;/h1&gt;         <br>
+                    &lt;h2&gt;Heading 2&lt;/h2&gt;          <br>
+                    &lt;h3&gt;Heading 3&lt;/h3&gt;          <br>
+                </code>
                 <h4>Rendered element:</h4>
-                <h1> Heading 1</h1>
+                <h1>Heading 1</h1>
                 <h2>Heading 2</h2>
                 <h3>Heading 3</h3>
-            </code>
-            <h4>Rendered element:</h4>
-            <h1> Heading 1</h1>
-            <h2>Heading 2</h2>
-            <h3>Heading 3</h3>
 
 
             <!--  <h3>Navigation Link</h3>
@@ -130,6 +138,24 @@
 
         <section class="element">
             <h3>Paragraphs</h3>
+            <h4>Sample Code</h4>
+            <code>
+                &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum porttitor sollicitudin. Fusce a
+                nibh
+                a enim porta eleifend et et dui. Morbi laoreet fringilla ornare. Pellentesque lectus sem, maximus quis
+                magna ultricies, interdum accumsan est. Quisque posuere sollicitudin sollicitudin. Nunc in est ut purus
+                dictum sagittis. Praesent facilisis sit amet dolor in consequat. Cras sit amet libero a tellus gravida
+                bibendum a ac sem. Sed viverra tempor orci vel viverra. Pellentesque facilisis quis turpis at lobortis.
+                Sed
+                sollicitudin nibh in eros malesuada, sed placerat augue laoreet. Integer placerat mollis viverra.
+                Maecenas
+                facilisis suscipit interdum. Fusce accumsan, tellus vitae laoreet gravida, magna turpis auctor turpis,
+                quis
+                tincidunt eros purus non nibh. Vivamus convallis sem semper, ornare magna non, gravida massa. Aliquam
+                laoreet viverra ex sit amet rhoncus.&lt;/p&gt;
+            </code>
+            <h4>Rendered element:</h4>
+
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum porttitor sollicitudin. Fusce a
                 nibh
                 a enim porta eleifend et et dui. Morbi laoreet fringilla ornare. Pellentesque lectus sem, maximus quis
@@ -232,6 +258,8 @@
     Audition process: Sign-In to JYP Web -> Application -> Upload Required Files -> Successful
     Field of Audition: Vocal/Dance/Act/Model/Mc/VJ 
     <!-- Curtis: appropriate means for the user to provide feedback on a product or service -->
+</div>
+
 </body>
 
 </html>
