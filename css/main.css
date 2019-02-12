@@ -37,7 +37,7 @@ h2 {
 h3 {
   font-family: 'Oswald', sans-serif;
   margin-top: 1rem;
-      color: #444444;
+  color: #444444;
 
 }
 
@@ -145,3 +145,22 @@ button:hover, button:focus{
 /* 
   COMBINED ELEMENTS -------------------
 */
+
+/*
+main navigation
+*/
+.f-left {
+  float: left;
+}
+.main-nav {
+    display: inline-block;
+    margin: auto;
+    margin-top: 10px;
+
+}
+.main-nav a{
+  color: #444444;
+  display: inline-block;
+  margin: auto;
+}
+
