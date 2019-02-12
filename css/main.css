@@ -9,7 +9,6 @@ figure{
 }
 
 
-
 body {
   font-family: sans-serif;
   padding: 2rem;
@@ -53,6 +52,17 @@ code {
   display: block;
 }
 
+nav a{
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color:#444444;
+    font-size: 1.2rem;
+    padding-left: 10px;
+}
+
+nav a:hover{
+    color:#444444;    
+}
 
 /* 
   INTERACTIVE ELEMENTS -------------------
