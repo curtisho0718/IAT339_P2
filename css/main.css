@@ -1,0 +1,27 @@
+/* Basic Element */
+.section{
+border-top-style: solid;
+border-width: 1px;
+padding: 10px;
+}
+
+.color-palette{
+    max-width: 100px;
+}
+
+figure{
+    display: inline-table;
+}
+
+
+
+/* Typography */
+h1,h2,h3,h4,h5{
+    
+font-family: 'Oswald', sans-serif;
+}
+
+p{
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 10px;
+}
