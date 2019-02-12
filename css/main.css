@@ -32,7 +32,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald', sans-serif;
   margin-bottom: 0.25rem;
 }
 
@@ -41,6 +41,9 @@ p {
   margin-top: 0;
 }
 
+a:active{
+    color:#50567D;
+}
 nav a:hover, nav a:focus {
   text-decoration: none;
 }
@@ -60,7 +63,11 @@ nav a{
 }
 
 nav a:hover{
-    color:#444444;    
+    color:#009be0;    
+}
+
+nav a:active{
+    color:#50567D;
 }
 
 /* 
@@ -70,19 +77,50 @@ nav a:hover{
 /* Styling for the navigation button */
 .button-nav {
   display: inline-block;
+  font-family: 'Nanum Gothic', sans-serif;
   padding: 0.5rem;
-  color: white;
-  background-color: rgb(50,50,50);
+  color: #000000;
+  border-style: solid;
   text-decoration: none;
   transition-property: background-color; 
   transition-duration: 0.5s;
 }
 
 .button-nav:hover, .button-nav:focus {
-  background-color: rgb(200,200,200);
+  background-color: #009de04d;
 }
 
+.button-nav-white {
+    display: inline-block;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 0.5rem;
+    color: #ffffff;
+    border-style: solid;
+    border: #ffffff;
+    text-decoration: none;
+    transition-property: background-color; 
+    transition-duration: 0.5s;
+}
+  
+.button-nav-white:hover, .button-nav-white:focus {
+    background-color: #009de04d;
+}
 
+button{
+    display: inline-block;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 0.5rem;
+    color: #000000;
+    background-color: none;
+    border-style: solid;
+    text-decoration: #ffffff1f;
+    transition-property: background-color; 
+    transition-duration: 0.5s;
+}
+
+button:hover, button:focus{
+    background-color: #009de04d;
+}
 
 /* 
   TEXT ELEMENTS -------------------
