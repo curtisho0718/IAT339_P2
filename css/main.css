@@ -21,19 +21,31 @@ body {
   border-top-color: black;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #444444;
+}
+
 h2 {
     font-family: 'Oswald', sans-serif;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+    font-size: 1.5em;
+        color: #444444;
+
 }
 
 h3 {
   font-family: 'Oswald', sans-serif;
   margin-top: 1rem;
+      color: #444444;
+
 }
 
 h4 {
     font-family: 'Oswald', sans-serif;
   margin-bottom: 0.25rem;
+      color: #444444;
+
 }
 
 p {
@@ -51,16 +63,23 @@ code {
   display: block;
 }
 
+nav{
+  margin-bottom: 50px;
+  margin: 20px 0px 50px 0px;
+}
+
 nav a{
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
-    color:#444444;
+    color:#009be0;    
     font-size: 1.2rem;
     padding-left: 10px;
+    display: inline-block;
+    margin-right: 25px;
 }
 
 nav a:hover{
-    color:#444444;    
+    color:#50567D;    
 }
 
 /* 
