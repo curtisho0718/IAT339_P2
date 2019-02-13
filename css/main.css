@@ -135,6 +135,31 @@ nav a:hover{
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+/* 
+Product
+*/
+
+.product-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px;
+  width: 70%;
+}
+
+.product-container img{
+  max-width: 100px;
+  height: auto;
+}
+.product-item{
+flex-shrink: 1;
+margin: 10px;
+}
+
 /* 
   INTERACTIVE ELEMENTS -------------------
 */
