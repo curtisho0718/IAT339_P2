@@ -396,3 +396,19 @@ main navigation
   display: inline-block;
 }
 
+
+/* footer */
+footer{
+  display: flex;
+  color: white;
+  background-color: #000000;
+  width: 100%; 
+  flex-wrap: wrap;
+  justify-content: center;
+  padding:10px 0 10px 0;
+}
+footer div{
+  flex-basis: 20%;
+  margin: 10px;
+  min-width: 100px;
+}
