@@ -366,4 +366,25 @@ main navigation
   right:0px;
 }
 
-
+/* Row  */
+.row{
+  width: 100%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col-35{
+  width: 35%;
+  float:left;
+  background-color: pink;
+}
+.col-65{
+float: left;
+width: 65%;
+}
+.col-65 img{
+width: 100%;
+height: auto;
+}
