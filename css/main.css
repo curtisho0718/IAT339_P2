@@ -88,7 +88,7 @@ nav a{
   font-family: 'Oswald', sans-serif;
   text-decoration: none;
   color:#009be0;    
-  font-size: 1.2rem;
+  /*font-size: 1.2rem;*/
   padding-left: 10px;
   display: inline-block;
   margin-right: 25px;
@@ -110,7 +110,7 @@ nav a:hover{
   width: 100%;
   height: auto;
 }
-/* learned from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade */
+/* learned from https://www.w3hools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade */
 .overlay{
   position: absolute;
   top: 0;
