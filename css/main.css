@@ -11,7 +11,6 @@ figure{
 
 body {
   font-family: sans-serif;
-  padding: 2rem;
 }
 
 .element {
@@ -77,8 +76,7 @@ code {
 }
 
 nav{
-  margin-bottom: 50px;
-  margin: 20px 0px 50px 0px;
+  margin: 20px 0px 0px 0px;
   padding: 0 0 10px 0;
   text-align: center;
   border-bottom-style: solid;
@@ -367,25 +365,3 @@ main navigation
   width: 110%;
 }
 
-/* Row  */
-.row{
-  width: 100%;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.col-35{
-  width: 35%;
-  float:left;
-  background-color: pink;
-}
-.col-65{
-float: left;
-width: 65%;
-}
-.col-65 img{
-width: 100%;
-height: auto;
-}
