@@ -370,3 +370,19 @@ main navigation
   /*width: 180px;*/
   /*margin-bottom: 5px;*/
 }
+
+.productdetail-img {
+  border-bottom-style: solid;
+  padding:0 0 0px 0;
+  border-bottom-width: 5px;
+  width: 13em;
+}
+
+.productdetail-item{
+
+}
+
+.productdetail-container {
+  
+}
+
