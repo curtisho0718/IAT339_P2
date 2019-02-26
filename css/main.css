@@ -190,6 +190,7 @@ margin: 10px;
 
 .payment-container{
   display: flex;
+  margin: 10px 50px;
   flex-wrap: wrap;
 }
 
