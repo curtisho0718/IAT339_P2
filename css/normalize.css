@@ -185,6 +185,7 @@ template {
 }
 
 
+/* Product Page */
 @media(max-width: 60em) { /*0%~60%*/
   .merchandise-item {
     /*border: solid red 50px;*/
@@ -207,7 +208,7 @@ template {
     margin-bottom: 5px;
   }
   nav a{
-    font-size: 1em;
+    font-size: 1.2em;
   }
 }
 

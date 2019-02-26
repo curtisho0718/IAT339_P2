@@ -371,29 +371,26 @@ main navigation
   /*margin-bottom: 5px;*/
 }
 
-.productdetail-img {
-  /*border-bottom-style: solid;*/
-  padding:0 0 0px 0;
-  border-bottom-width: 5px;
-  max-width: 30%;
-  min-height: 100%;
+.productdetail-container {
+  display: flex;
   overflow: hidden;
-  padding-left: 100px; 
-  margin-top: 20px;
+}
+
+.productdetail-img {
+  max-width: 50%;
+  margin-left: 50px;
+
 }
 
 .productdetail-item{
 
 }
 
-.productdetail-container {
-    max-width: 100%;
-    min-height: 100%;
-    overflow: hidden;
-}
 
-.productdetail-container h4 {
-  display: inline-block;
+.productdetail-detail {
+  display: flex;
+  width: 10em;
+
 }
 
 
