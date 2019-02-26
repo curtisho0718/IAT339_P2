@@ -1,25 +1,50 @@
 /* Row  */
+
+.left{
+  text-align: left;
+}
 .home-container{
     display: flex;
     flex-wrap: wrap;
   }
+
+
   .home-container img{
-    max-width:110%;
-    min-height:100%;
+    max-width: 100%;
+    min-height: 100%;
     overflow: hidden;
   }
   .home-item{
-    flex-basis: 65%;
+    width:50%;
+  }
+  .home-container-company{
+    display: flex;
+    width: 100%;
+    justify-content: center;
   }
   
+  .home-item-company{
+    width: 70%;
+  }
+
+  .home-item-company img{
+    max-width: 100%;
+  }
+
+  .home-item-company p{
+    max-width: 100%;
+  }
   .home-item-btn{
       text-align: center;
-      flex-basis: 35%;
+      flex-grow: 1;
+
   }
+
 
   .home-heading{
       text-align: center;
       color: white;
+      margin-bottom: 10px;
       font-size: 5rem;
   }
 
@@ -34,7 +59,8 @@
     transition-duration: 0.5s;
 }
 .btn-container{
-    margin-top: 35%;
+    margin-top: 20%;
+    padding-bottom: 80px;
 }
 .home-btn:hover, .home-btn:focus {
     background-color: #009de04d;
@@ -47,21 +73,12 @@
     background-color: rgb(54, 41, 85);
   }
 
-  @media only screen and (max-width: 910) {
-    .btn-container{
-        margin-top: 55%;
-    }
-  }
-
-  @media only screen and (min-width: 900) {
-
+  @media only screen and (max-width: 992px) {
     .home-item{
-        flex-basis: 100%;
-      }
-      
-      .home-item-btn{
-          text-align: center;
-          flex-basis: 100%;
-      }
-    
+      width: 100%;
+    }
+    .btn-container{
+      margin-top: 10%;
+      padding-bottom: 80px;
+  }
   }

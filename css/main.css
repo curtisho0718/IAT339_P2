@@ -161,7 +161,7 @@ flex containers
   height: auto;
 }
 .product-item{
-flex-shrink: 1;
+flex-shrink: 2;
 margin: 10px;
 }
 

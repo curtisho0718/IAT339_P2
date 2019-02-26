@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,13 @@
 	<!-- MIT License | github.com/necolas/normalize.css -->
 	<!-- To solve the user agent stylesheet problem -->
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/home.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="css/picture.css">
+
 	<!-- Google Front: Nanum & Oswald -->
 	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Oswald" rel="stylesheet">
 </head>
+
 <body>
 	<nav>
 		<a href="index.html">Home</a>
@@ -20,25 +23,47 @@
 		<a href="#">Concert</a>
 		<a href="styleguide.html"> Style Guide </a>
 	</nav>
+	<div class="home-container-company">
+		
+		<div class="home-item-company">
+				<h1>About JYP Entertainment</h1>
+			<img src="img/map.jpg">
+			<p class="left">
+				JYP Entertainment is South Korea’s leading entertainment company. For over ten years, JYP has been
+				active in music production as well as the recruitment, training, and management of new artists. JYP
+				expertly develops new models for its unique business system, constantly working to expand businesses
+				into online and mobile segments in both the domestic and international markets.
+			</p>
+		</div>
 
-		<div class="row">
-		<div class="col-65">
+	</div>
+
+
+	<div class="home-container">
+		<div class="home-item">
 			<img src="img/2pm.jpg">
 		</div>
-		<div class="col-35">
-			<p>testing</p>
+		<div class="home-item-btn twopm">
+			<div class="btn-container">
+				<h1 class="home-heading">2PM</h1>
+				<a class="home-btn" href="#">Visit</a>
+			</div>
 
 		</div>
 	</div>
 
-	<div class="row">
-			<div class="col-65">
-				<img src="img/jypark.jpg">
-			</div>
-			<div class="col-35">
-				<p>testing</p>
-				
-			</div>
+	<div class="home-container">
+		<div class="home-item">
+			<img src="img/wondergirl.jpg">
 		</div>
+		<div class="home-item-btn wondergirl">
+			<div class="btn-container">
+				<h1 class="home-heading">wondergirl</h1>
+				<a class="home-btn" href="#">Visit</a>
+			</div>
+
+		</div>
+	</div>
 </body>
+
 </html>
