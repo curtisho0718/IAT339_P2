@@ -372,10 +372,14 @@ main navigation
 }
 
 .productdetail-img {
-  border-bottom-style: solid;
+  /*border-bottom-style: solid;*/
   padding:0 0 0px 0;
   border-bottom-width: 5px;
-  width: 13em;
+  max-width: 30%;
+  min-height: 100%;
+  overflow: hidden;
+  padding-left: 100px; 
+  margin-top: 20px;
 }
 
 .productdetail-item{
@@ -383,6 +387,12 @@ main navigation
 }
 
 .productdetail-container {
-  
+    max-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.productdetail-container h4 {
+  display: inline-block;
 }
 
