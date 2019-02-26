@@ -105,9 +105,11 @@
 
     .width-55{
       width: 100%;
+      order:2;
     }
   
     .width-45{
+      order:1;
       width: 100%;
     }
   
