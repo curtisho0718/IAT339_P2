@@ -1,17 +1,17 @@
 /* Basic Element */
 
 .color-palette{
-    max-width: 100px;
+  max-width: 100px;
 }
 
 figure{
-    display: inline-table;
+  display: inline-table;
 }
 
 
 body {
   font-family: sans-serif;
-  padding: 2rem;
+  /*padding: 2rem;*/
 }
 
 .element {
@@ -22,16 +22,16 @@ body {
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
-    color: #444444;
-    font-size: 1.7em;
+  font-family: 'Oswald', sans-serif;
+  color: #444444;
+  font-size: 1.7em;
 }
 
 h2 {
-    font-family: 'Oswald', sans-serif;
-    margin-top: 1.5rem;
-    font-size: 1.5em;
-        color: #444444;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 1.5rem;
+  font-size: 1.5em;
+  color: #444444;
 
 }
 
@@ -45,26 +45,26 @@ h3 {
 h4 {
   font-family: 'Oswald', sans-serif;
   margin-bottom: 0.25rem;
-      color: #444444;
+  color: #444444;
 
 }
 
 p {
-    font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   margin-top: 0;
 }
 
 label{
-    font-family: 'Nanum Gothic', sans-serif;
-    font-weight: 900;
-    margin-right: 10px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 900;
+  margin-right: 10px;
 }
 
 input[type="text"]{
-    font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 a:active{
-    color:#50567D;
+  color:#50567D;
 }
 nav a:hover, nav a:focus {
   text-decoration: none;
@@ -77,6 +77,8 @@ code {
 }
 
 nav{
+  display: block;
+  float: right;
   margin-bottom: 50px;
   margin: 20px 0px 50px 0px;
   padding: 0 0 10px 0;
@@ -87,59 +89,59 @@ nav{
 }
 
 nav a{
-    font-family: 'Oswald', sans-serif;
-    text-decoration: none;
-    color:#009be0;    
-    font-size: 1.2rem;
-    padding-left: 10px;
-    display: inline-block;
-    margin-right: 25px;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  color:#009be0;    
+  font-size: 1.2rem;
+  padding-left: 10px;
+  display: inline-block;
+  margin-right: 25px;
 }
 
 nav a:hover{
-    color:#50567D;    
+  color:#50567D;    
 }
 
 
 
 .img-link-container{
-    position: relative;
-    width: 500px;
+  position: relative;
+  width: 500px;
 }
 
 .img-link{
-    display: block;
-    width: 100%;
-    height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 /* learned from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade */
 .overlay{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #009de0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #009de0;
 }
 
 .overlay:hover{
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 .centerText{
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 /* 
@@ -170,8 +172,8 @@ flex containers
   height: auto;
 }
 .product-item{
-flex-shrink: 1;
-margin: 10px;
+  flex-shrink: 1;
+  margin: 10px;
 }
 
 .form-container{
@@ -199,26 +201,26 @@ margin: 10px;
 }
 /* 
   INTERACTIVE ELEMENTS -------------------
-*/
+  */
 
 
-/* Styling for the navigation button */
-.button-nav {
-  display: inline-block;
-  font-family: 'Nanum Gothic', sans-serif;
-  padding: 0.5rem;
-  color: #000000;
-  border-style: solid;
-  text-decoration: none;
-  transition-property: background-color; 
-  transition-duration: 0.5s;
-}
+  /* Styling for the navigation button */
+  .button-nav {
+    display: inline-block;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 0.5rem;
+    color: #000000;
+    border-style: solid;
+    text-decoration: none;
+    transition-property: background-color; 
+    transition-duration: 0.5s;
+  }
 
-.button-nav:hover, .button-nav:focus {
-  background-color: #009de04d;
-}
+  .button-nav:hover, .button-nav:focus {
+    background-color: #009de04d;
+  }
 
-.button-nav-white {
+  .button-nav-white {
     display: inline-block;
     font-family: 'Nanum Gothic', sans-serif;
     padding: 0.5rem;
@@ -228,13 +230,13 @@ margin: 10px;
     text-decoration: none;
     transition-property: background-color; 
     transition-duration: 0.5s;
-}
+  }
   
-.button-nav-white:hover, .button-nav-white:focus {
+  .button-nav-white:hover, .button-nav-white:focus {
     background-color: #009de04d;
-}
+  }
 
-button{
+  button{
     display: block;
     font-family: 'Nanum Gothic', sans-serif;
     padding: 0.5rem;
@@ -246,29 +248,29 @@ button{
     text-decoration: #ffffff1f;
     transition-property: background-color; 
     transition-duration: 0.5s;
-}
+  }
 
-button:hover, button:focus{
+  button:hover, button:focus{
     background-color: #009de04d;
-}
-button[type="reset"]:hover{
+  }
+  button[type="reset"]:hover{
     background-color: rgba(242, 129, 150, 0.253);
-}
+  }
 /* 
   TEXT ELEMENTS -------------------
-*/
-ol li{
-  color: #50567D;
-}
+  */
+  ol li{
+    color: #50567D;
+  }
 
-pre {
-  padding-left: 30px;
-  margin: 0px;
-}
+  pre {
+    padding-left: 30px;
+    margin: 0px;
+  }
 
 /* 
   COMBINED ELEMENTS -------------------
-*/
+  */
 
 /*
 main navigation
@@ -277,9 +279,9 @@ main navigation
   float: left;
 }
 .main-nav {
-    display: inline-block;
-    margin: auto;
-    margin-top: 10px;
+  display: inline-block;
+  margin: auto;
+  margin-top: 10px;
 
 }
 .main-nav a{
@@ -317,6 +319,7 @@ main navigation
 .main-container {
   /*background-color: blue;*/
   /*height: 100px;*/
+    clear: both;
   border: solid black 1px;
   width: 90%;
   margin: auto;
