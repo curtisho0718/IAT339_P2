@@ -76,8 +76,11 @@ code {
 }
 
 nav{
-  margin: 20px 0px 0px 0px;
+  position:fixed;
+  margin: 0;
+  width: 100%;
   padding: 0 0 10px 0;
+  background-color: #ffffffbb;
   text-align: center;
   border-bottom-style: solid;
   border-width: 0.5px;
@@ -98,7 +101,9 @@ nav a:hover{
   color:#50567D;    
 }
 
-
+.content{
+  padding-top: 55px;
+}
 
 .img-link-container{
   position: relative;
