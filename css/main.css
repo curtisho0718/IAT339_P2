@@ -173,7 +173,6 @@ flex containers
   justify-content: space-between;
   border-bottom-style: solid;
   border-bottom-width: 0.5px;
-  width: 800px;
 }
 .form-item{
   padding-bottom: 20px;
@@ -187,6 +186,16 @@ flex containers
 }
 #csv{
   width: 50px;
+}
+
+.payment-container{
+  display: flex;
+  margin: 10px 50px;
+  flex-wrap: wrap;
+}
+
+.payment-item{
+  width: 50%;
 }
 /* 
   INTERACTIVE ELEMENTS -------------------
