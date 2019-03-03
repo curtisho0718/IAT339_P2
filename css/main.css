@@ -89,40 +89,6 @@ flex-shrink: 2;
 margin: 10px;
 }
 
-<<<<<<< HEAD
-.form-container{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom-style: solid;
-  border-bottom-width: 0.5px;
-}
-.form-item{
-  padding-bottom: 20px;
-  padding-top: 20px;
-  flex-shrink: 1;
-  flex-basis: 340px;
-}
-
-#credit-mm, #credit-yy{
-  width: 50px;
-}
-#csv{
-  width: 50px;
-}
-
-.payment-container{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.payment-item{
-  width: 50%;
-}
-=======
->>>>>>> parent of 77f2c61... Merge branch 'image_link'
 /* 
   INTERACTIVE ELEMENTS -------------------
 */
