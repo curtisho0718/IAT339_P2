@@ -372,8 +372,10 @@ main navigation
 }
 
 .productdetail-container {
-  display: flex;
+  /* display: flex; */
   overflow: hidden;
+  width: 80%;
+  margin: auto;
 }
 
 .productdetail-img {
@@ -383,15 +385,21 @@ main navigation
 }
 
 .productdetail-item{
-
-}
-
-
-.productdetail-detail {
   display: flex;
-  width: 10em;
-
 }
+.productdetail-left {
+  flex: 1;
+}
+.productdetail-right{
+  flex: 1;
+}
+
+.productdetail-p {
+  padding: 10px;
+  margin-bottom: 0;
+  margin: 100px;
+}
+
 
 
 /* footer */
