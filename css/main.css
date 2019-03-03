@@ -89,6 +89,7 @@ flex-shrink: 2;
 margin: 10px;
 }
 
+<<<<<<< HEAD
 .form-container{
   display: flex;
   flex-direction: row;
@@ -120,10 +121,11 @@ margin: 10px;
 .payment-item{
   width: 50%;
 }
+=======
+>>>>>>> parent of 77f2c61... Merge branch 'image_link'
 /* 
   INTERACTIVE ELEMENTS -------------------
 */
-
 
 /* Styling for the navigation button */
 .button-nav {
