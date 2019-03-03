@@ -9,6 +9,7 @@ figure {
 }
 
 
+
 body {
   font-family: sans-serif;
   margin: 0;
@@ -21,36 +22,23 @@ body {
   border-top-color: black;
 }
 
-h1 {
-  font-family: 'Oswald', sans-serif;
-  color: #444444;
-  font-size: 1.7em;
-}
-
 h2 {
-  font-family: 'Oswald', sans-serif;
-  margin-top: 1.5rem;
-  font-size: 1.5em;
-  color: #444444;
-
+    font-family: 'Oswald', sans-serif;
+    margin-top: 1rem;
 }
 
 h3 {
   font-family: 'Oswald', sans-serif;
   margin-top: 1rem;
-  color: #444444;
-
 }
 
 h4 {
   font-family: 'Oswald', sans-serif;
   margin-bottom: 0.25rem;
-  color: #444444;
-
 }
 
 p {
-  font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
   margin-top: 0;
 }
 
@@ -215,8 +203,7 @@ flex containers
 
 /* 
   INTERACTIVE ELEMENTS -------------------
-  */
-
+*/
 
 /* Styling for the navigation button */
 .button-nav {
@@ -289,7 +276,7 @@ pre {
 
 /* 
   COMBINED ELEMENTS -------------------
-  */
+*/
 
 /*
 main navigation
@@ -299,9 +286,9 @@ main navigation
 }
 
 .main-nav {
-  display: inline-block;
-  margin: auto;
-  margin-top: 10px;
+    display: inline-block;
+    margin: auto;
+    margin-top: 10px;
 
 }
 
@@ -351,7 +338,6 @@ main navigation
   flex: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 50px;
 }
 
 
@@ -372,8 +358,8 @@ main navigation
   border-bottom-style: solid;
   padding: 0 0 0px 0;
   border-bottom-width: 5px;
-  /*width: 10em;*/
-  /*height: 180px;*/
+  width: 180px;
+  height: 180px;
 
 }
 
