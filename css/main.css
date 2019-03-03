@@ -194,6 +194,18 @@ flex containers
 #csv{
   width: 50px;
 }
+<<<<<<< HEAD
+=======
+
+.payment-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.payment-item{
+  width: 50%;
+}
+>>>>>>> parent of 2ef01fd... change payment.html to checkout.html
 /* 
   INTERACTIVE ELEMENTS -------------------
   */
