@@ -9,6 +9,10 @@
   flex-wrap: wrap;
 }
 
+.home-container h1{
+  padding-left:20px; 
+}
+
 
 .home-container img {
   max-width: 100%;
