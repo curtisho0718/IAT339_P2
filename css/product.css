@@ -1,64 +1,66 @@
 /*Product css*/
-.product-content{
+.product-content {
     width: 80%;
     margin: auto;
 }
-.cd-container{
-    display: flex;
-    flex-wrap:wrap;
-  }
 
-  .cd-container figure{
-    padding-bottom:20px;
-  }
-  
-  
-  
-  .cd-container figure:hover{
+.cd-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cd-container figure {
+    padding-bottom: 20px;
+}
+
+
+
+.cd-container figure:hover {
     border-style: solid;
-  }
-  
-  
-  .cd-item{
-  width: 20%;
-  min-width: 205px;
-  text-align: center;
-  }
-  .cd-figure figcaption{
+}
+
+
+.cd-item {
+    width: 20%;
+    min-width: 205px;
+    text-align: center;
+}
+
+.cd-figure figcaption {
     font-family: 'Oswald', sans-serif;
     color: #444444;
     margin-bottom: 10px;
     font-size: 1rem;
-  }
-  
-  .cd-item img{
+}
+
+.cd-item img {
     max-width: 100%;
-  }
-  
-  .cd-item h1{
+}
+
+.cd-item h1 {
     font-size: 1rem;
-  }
-  
-  .cd-btn{
+}
+
+.cd-btn {
     text-decoration: none;
     color: #00196b;
     border-style: solid;
     border-color: #00196b;
-    margin-top:5px; 
+    margin-top: 5px;
     padding: 5px 20px;
-  }
-  
-  
-  @media only screen and (max-width: 768px) {
-    .cd-item{
-      width: 45%;
-      }
-      
-  }
-  
-  @media only screen and (max-width: 320px) {
-    .cd-item{
-      width: 100%;
-      }
-      
-  }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .cd-item {
+        width: 45%;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .cd-item {
+        width: 100%;
+    }
+
+}

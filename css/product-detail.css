@@ -1,0 +1,40 @@
+.product-content {
+    width: 80%;
+    margin: auto;
+}
+
+.product-detail-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-detail-item{
+    width: 50%;
+    max-width: 500px;
+}
+
+.product-detail-item img{
+    max-width: 100%;
+}
+
+.product-detail-item p{
+    margin-left: 50px;
+}
+
+
+.purchase-btn {
+    float:right;
+    text-decoration: none;
+    color: #00196b;
+    border-style: solid;
+    border-color: #00196b;
+    margin-top: 5px;
+    padding: 5px 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .product-detail-item{
+        width: 100%;
+    }
+    
+}

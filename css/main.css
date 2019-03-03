@@ -25,7 +25,7 @@ body {
 }
 
 .footer div {
-  flex-basis: 20%;
+  width: 20%;
   margin: 10px;
   min-width: 100px;
 }
@@ -350,4 +350,14 @@ main navigation
 .col-65 img {
   width: 100%;
   height: auto;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .footer div {
+    width: 100%;
+
+  }
+  
 }
