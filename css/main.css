@@ -1,0 +1,355 @@
+/* Basic Element */
+
+.color-palette{
+    max-width: 100px;
+}
+
+figure{
+    display: inline-table;
+}
+
+
+body {
+  font-family: sans-serif;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #444444;
+    font-size: 1.7em;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 1.5rem;
+    font-size: 1.5em;
+        color: #444444;
+
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  margin-top: 1rem;
+  color: #444444;
+
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 0.25rem;
+      color: #444444;
+
+}
+
+p {
+    font-family: 'Nanum Gothic', sans-serif;
+  margin-top: 0;
+}
+
+label{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+input[type="text"]{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+a:active{
+    color:#50567D;
+}
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+
+nav{
+  margin: 20px 0px 0px 0px;
+  padding: 0 0 10px 0;
+  text-align: center;
+  border-bottom-style: solid;
+  border-width: 0.5px;
+  border-bottom-color: #6b6b6b;
+}
+
+nav a{
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color:#009be0;    
+    font-size: 1.2rem;
+    padding-left: 10px;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+nav a:hover{
+    color:#50567D;    
+}
+
+
+
+.img-link-container{
+    position: relative;
+    width: 500px;
+}
+
+.img-link{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* learned from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade */
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #009de0;
+}
+
+.overlay:hover{
+    opacity: 0.8;
+}
+
+.centerText{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* 
+flex containers
+*/
+
+
+.product-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px;
+  width: 70%;
+}
+
+.product-container img{
+  max-width: 100px;
+  height: auto;
+}
+.product-item{
+flex-shrink: 2;
+margin: 10px;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom-style: solid;
+  border-bottom-width: 0.5px;
+}
+.form-item{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  flex-shrink: 1;
+  flex-basis: 340px;
+}
+
+#credit-mm, #credit-yy{
+  width: 50px;
+}
+#csv{
+  width: 50px;
+}
+
+.payment-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.payment-item{
+  width: 50%;
+}
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  font-family: 'Nanum Gothic', sans-serif;
+  padding: 0.5rem;
+  color: #000000;
+  border-style: solid;
+  text-decoration: none;
+  transition-property: background-color; 
+  transition-duration: 0.5s;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #009de04d;
+}
+
+.button-nav-white {
+    display: inline-block;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 0.5rem;
+    color: #ffffff;
+    border-style: solid;
+    border: #ffffff;
+    text-decoration: none;
+    transition-property: background-color; 
+    transition-duration: 0.5s;
+}
+  
+.button-nav-white:hover, .button-nav-white:focus {
+    background-color: #009de04d;
+}
+
+button{
+    display: block;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 0.5rem;
+    color: #000000;
+    background-color: #ffffff00;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1.5px;
+    text-decoration: #ffffff1f;
+    transition-property: background-color; 
+    transition-duration: 0.5s;
+}
+
+button:hover, button:focus{
+    background-color: #009de04d;
+}
+button[type="reset"]:hover{
+    background-color: rgba(242, 129, 150, 0.253);
+}
+/* 
+  TEXT ELEMENTS -------------------
+*/
+ol li{
+  color: #50567D;
+}
+
+pre {
+  padding-left: 30px;
+  margin: 0px;
+}
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+/*
+main navigation
+*/
+.f-left {
+  float: left;
+}
+.main-nav {
+    display: inline-block;
+    margin: auto;
+    margin-top: 10px;
+
+}
+.main-nav a{
+  color: #444444;
+  display: inline-block;
+  margin: auto;
+}
+
+
+
+/*Home css*/
+
+.row{
+  width: 100%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col-35{
+  width: 35%;
+  float:left;
+  background-color: pink;
+}
+.col-65{
+float: left;
+width: 65%;
+}
+.col-65 img{
+width: 100%;
+height: auto;
+}
+
+/*Product css*/
+.center-text {
+  text-align: center;
+}
+
+.merchandise-container{
+  display: flex;
+  flex: row;
+  flex-wrap: wrap;
+  border: black solid 1px;
+  justify-content: center;
+}
+.merchandise-item{
+  flex-shrink: 1;
+  margin-top: 5px;
+}
+
+.merchandise-img{
+  border-bottom-style: solid;
+  padding:0 0 10px 0;
+  border-bottom-width: 5px;
+  width: 180px;
+  height: 180px;
+
+}
+.merchandise-fig{
+  display: inline-block;
+  position: relative;
+  margin: 0 20px 0 0;
+  text-align: center;
+}
+.merchandise-caption{
+  text-align: center;
+  padding: 0 0 10px 0;
+  font-family: 'Oswald', sans-serif;
+}
+.add-cart-btn{
+  width: 180px;
+  margin-bottom: 5px;
+}
