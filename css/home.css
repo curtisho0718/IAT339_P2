@@ -1,84 +1,145 @@
-/* Row  */
-
-.left{
-  text-align: left;
+/* ------Company Bio ---------- */
+.company-bio-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
-.home-container{
-    display: flex;
-    flex-wrap: wrap;
-  }
+
+.company-bio-container img {
+  /* scale based on div tag */
+  max-width: 100%;
+}
+
+/* bio flex item */
+.company-bio-item {
+  width: 100%;
+}
+
+.bio-img {
+  width: 50%;
+}
+
+.bio-paragrah {
+  width: 50%;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  padding: 10px;
+}
+
+/* ------Company Bio ---------- */
 
 
-  .home-container img{
-    max-width: 100%;
-    min-height: 100%;
-    overflow: hidden;
-  }
-  .home-item{
-    width:50%;
-  }
-  .home-container-company{
-    display: flex;
+
+/* ------ Artist ---------- */
+.artist-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.artist-item {
+  width: 100%;
+}
+
+.artist-item-title{
+  width:100%;
+}
+.artist-item-img {
+  width: 50%;
+}
+
+
+.artist-container img {
+  /* scale with div */
+  max-width: 100%;
+  min-height: 100%;
+  /* hide oversize image */
+  overflow: hidden;
+}
+
+
+.artist-page{
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+  padding: 20px 0;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.artist-page h1{
+  font-size: 5rem;
+  margin: 0;
+  color: white;
+}
+.artist-page-item{
+  text-align: center;
+}
+.artist-page a{
+  text-decoration: none;
+  margin: 0;
+  font-size: 2.5rem;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-width:0.8px;
+  padding: 5px 90px;
+}
+
+.artist-page a:hover{
+  background-color: #009de04d;
+}
+
+.artist-page a:focus{
+  background-color: #35c2ffee;
+}
+.twopm {
+  background-color: rgb(54, 41, 85);
+}
+
+/* Artist */
+
+.wondergirl {
+  background-color: rgb(175, 94, 2);
+}
+
+.twopm {
+  background-color: rgb(54, 41, 85);
+}
+
+
+
+/* Tablet Size */
+@media only screen and (max-width: 768px) {
+  .bio-img {
     width: 100%;
-    justify-content: center;
-  }
-  
-  .home-item-company{
-    width: 70%;
   }
 
-  .home-item-company img{
-    max-width: 100%;
+  .bio-paragrah {
+    width: 100%;
   }
 
-  .home-item-company p{
-    max-width: 100%;
-  }
-  .home-item-btn{
-      text-align: center;
-      flex-grow: 1;
-
+  .artist-page h1{
+    font-size: 3rem;
+    color: white;
   }
 
+  .artist-page a{
+    font-size: 1.8rem;
 
-  .home-heading{
-      text-align: center;
-      color: white;
-      margin-bottom: 10px;
-      font-size: 5rem;
   }
-
-  .home-btn {
-    display: inline-block;
-    font-family: 'Nanum Gothic', sans-serif;
-    padding: 10px 50px;
-    color: #ffffff;
-    border-style: solid;
-    text-decoration: none;
-    transition-property: background-color; 
-    transition-duration: 0.5s;
 }
-.btn-container{
-    margin-top: 20%;
-    padding-bottom: 80px;
-}
-.home-btn:hover, .home-btn:focus {
-    background-color: #009de04d;
-}
-  .wondergirl{
-    background-color: rgb(175, 94, 2);
-  }
-  
-  .twopm{
-    background-color: rgb(54, 41, 85);
-  }
 
-  @media only screen and (max-width: 992px) {
-    .home-item{
-      width: 100%;
-    }
-    .btn-container{
-      margin-top: 10%;
-      padding-bottom: 80px;
+@media only screen and (min-width: 768px) {
+  .artist-item {
+    width: 50%;
   }
-  }
+}

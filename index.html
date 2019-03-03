@@ -6,17 +6,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>JYP Entertainment</title>
-	<!-- MIT License | github.com/necolas/normalize.css -->
-	<!-- To solve the user agent stylesheet problem -->
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/home.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<link rel="stylesheet" type="text/css" href="css/product.css">
 
 	<!-- Google Front: Nanum & Oswald -->
 	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Oswald" rel="stylesheet">
 </head>
 
 <body>
+	<!-- main menu -->
 	<nav>
 		<a href="index.html">Home</a>
 		<a href="product.html">Product</a>
@@ -24,11 +23,17 @@
 		<a href="checkout.html">Checkout</a>
 		<a href="styleguide.html"> Style Guide </a>
 	</nav>
-	<div class="home-container-company">
-		
-		<div class="home-item-company">
-				<h1>About JYP Entertainment</h1>
+	<!-- End of Menu -->
+
+	<!-- Company Bio -->
+	<div class="company-bio-container">
+		<div class="company-bio-item">
+			<h1>About JYP Entertainment</h1>
+		</div>
+		<div class="company-bio-item bio-img">
 			<img src="img/map.jpg">
+		</div>
+		<div class="company-bio-item bio-paragrah">
 			<p class="left">
 				JYP Entertainment is South Korea’s leading entertainment company. For over ten years, JYP has been
 				active in music production as well as the recruitment, training, and management of new artists. JYP
@@ -36,34 +41,89 @@
 				into online and mobile segments in both the domestic and international markets.
 			</p>
 		</div>
-
 	</div>
+	<!-- End of Company Bio -->
+	<div class="artist-container">
+		<div class="artist-item-title">
+			<h1>What's New</h1>
+
+		</div>
+		<div class="cd-container">
+			<div class="cd-item">
+				<figure class="cd-figure">
+					<img src="img/Product_img/JYP-1st.jpg">
+					<figcaption>
+						1st Album Blue City <br />
+						$20
+					</figcaption>
+					<a class="cd-btn" href="product.html">See Detail</a>
+				</figure>
+			</div>
+
+			<div class="cd-item">
+				<figure class="cd-figure">
+					<img src="img/Product_img/JYP-1st.jpg">
+					<figcaption>
+						1st Album Blue City <br />
+						$20
+					</figcaption>
+					<a class="cd-btn" href="product.html">See Detail</a>
+				</figure>
+			</div>
 
 
-	<div class="home-container">
-		<div class="home-item">
+			<div class="cd-item">
+				<figure class="cd-figure">
+					<img src="img/Product_img/JYP-1st.jpg">
+					<figcaption>
+						1st Album Blue City <br />
+						$20
+					</figcaption>
+					<a class="cd-btn" href="product.html">See Detail</a>
+				</figure>
+			</div>
+		</div>
+	</div>
+	<!-- Artist -->
+	<div class="artist-container">
+
+		<div class="artist-item-title">
+			<h1> Our Artist</h1>
+		</div>
+
+		<div class="artist-item">
 			<img src="img/2pm.jpg">
 		</div>
-		<div class="home-item-btn twopm">
-			<div class="btn-container">
-				<h1 class="home-heading">2PM</h1>
-				<a class="home-btn" href="#">Visit</a>
+		<div class="artist-item twopm">
+			<div class="artist-page">
+				<div class="artist-page-item">
+					<h1>2PM</h1>
+					<a href="http://2pm.jype.com/">Visit</a>
+				</div>
+
 			</div>
-
 		</div>
-	</div>
 
-	<div class="home-container">
-		<div class="home-item">
+		<div class="artist-item">
 			<img src="img/wondergirl.jpg">
 		</div>
-		<div class="home-item-btn wondergirl">
-			<div class="btn-container">
-				<h1 class="home-heading">wondergirl</h1>
-				<a class="home-btn" href="#">Visit</a>
-			</div>
+		<div class="artist-item wondergirl">
+			<div class="artist-page">
+				<div class="artist-page-item">
+					<h1>WONDERGIRL</h1>
+					<a href="http://wondergirls.jype.com/">Visit</a>
+				</div>
 
+			</div>
 		</div>
+
+		<!-- End of Artist Container -->
+	</div>
+	<!-- Artist -->
+
+	<!-- footer -->
+	<div class="footer">
+		JYP entertainment
 	</div>
 </body>
 
