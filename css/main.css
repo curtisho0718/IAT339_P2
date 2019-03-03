@@ -9,6 +9,7 @@ figure{
 }
 
 
+
 body {
   font-family: sans-serif;
 }
@@ -75,6 +76,7 @@ code {
   display: block;
 }
 
+<<<<<<< HEAD
 nav{
   margin: 20px 0px 0px 0px;
   padding: 0 0 10px 0;
@@ -139,6 +141,8 @@ nav a:hover{
     transform: translate(-50%, -50%);
     text-align: center;
 }
+=======
+>>>>>>> parent of d918775... update
 
 /* 
 flex containers
