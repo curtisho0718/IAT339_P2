@@ -1,0 +1,62 @@
+.checkout-header {
+    width: 80%;
+    margin: auto;
+}
+.checkout-content{
+    width: 80%;
+    margin: auto;
+    background-color: white;;
+}
+
+body{
+    background-color: #444444;
+}
+body nav {
+    background-color: white;
+}
+
+h1.detail {
+    margin-left: 0px;
+    padding: 0px;
+}
+
+
+.checkout-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px; 
+    padding-bottom: 50px;
+    /* background-color: white; */
+    width: 100%;
+}
+
+.checkout-itemstotal {
+    width: 100%;
+    background-color: white;
+}
+
+h1.checkout-title {
+    color:black;
+    
+}
+
+.checkout-cart{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.checkout-cartimage{
+    width: 40%;
+    max-width: 600px;
+}
+
+.checkout-description{
+    width: 60%;
+}
+
+
+.checkout-payment{
+    width: 38%;
+}
