@@ -8,6 +8,12 @@
   margin: 10px;
   text-align: center;
 }
+#likeh1{
+  font-family: 'Oswald', sans-serif;
+  color: #444444;
+  margin-left: 50px;
+  font-size: 1.7em;
+}
 
 figure {
   display: inline-table;
