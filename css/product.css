@@ -3,16 +3,17 @@
     width: 80%;
     margin: auto;
 }
-.product-h1 h1{
-    text-align: center;
-    color: #009be0;
+
+.productpage-h1{
+    width: 100%;
+    color: black;
 }
 
 .cd-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #fdf5e2;;
+    background-color: #c9c9c9;;
     padding: 50px 0px 50px 0px;
 
 }
@@ -35,12 +36,20 @@ body{
 
 .cd-item {
     width: 25%;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
     min-width: 205px;
+    padding: 10px 15px;
     text-align: center;
 }
 
-.cd-figure figcaption {
+.cd-figure h1 {
     font-family: 'Oswald', sans-serif;
+    margin: 0;
     color: #444444;
     margin-bottom: 10px;
     font-size: 1.2rem;
