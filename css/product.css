@@ -3,17 +3,27 @@
     width: 80%;
     margin: auto;
 }
-.product-h1 {
+.product-h1 h1{
     text-align: center;
+    color: #009be0;
 }
 
 .cd-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: #fdf5e2;;
+    padding: 50px 0px 50px 0px;
 
 }
 
+body nav {
+    background-color: #444444;
+}
+
+body{
+    background-color: white;
+}
 .cd-container figure {
     padding-bottom: 20px;
     

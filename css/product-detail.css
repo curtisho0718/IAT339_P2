@@ -1,7 +1,6 @@
 .productdetail-content {
     width: 80%;
     margin: auto;
-    background-color: white;;
 }
 .productdetail-header {
     width: 80%;
@@ -12,6 +11,8 @@
     flex-wrap: wrap;
     margin-top: 20px;
     padding: 10px;
+    background-color: #fdf5e2;;
+
 }
 body {
     background-color: #444444;
