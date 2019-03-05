@@ -9,6 +9,10 @@ h1.detail {
     color: black;
 }
 
+h1.checkout-title {
+    margin: 0 0 0 50px;
+}
+
 .checkout-content{
     width: 80%;
     margin: auto;
@@ -19,7 +23,7 @@ h1.detail {
 .checkout-itemstotal {
     width: 100%;
     background-color: #fdf5e2;
-    margin-bottom: 50px;   
+    margin-bottom: 20px;   
 }
 
 h1.checkout-title {
@@ -80,21 +84,27 @@ ul {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    font-size: 1em;
+}
+
+.checkout-select select {
+    font-size: 1em;
 }
 
 .checkout-item-price{
-    width: 8%;
+    width: 10%;
     /* centering */
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    font-size: 1em;
 }
 
 hr{
     width: 95%;
     background: black;
-    margin-bottom: 30px; 
+    /* margin-bottom: 30px;  */
 }
 
 /* Payment Info */
@@ -147,29 +157,51 @@ input[type=text] {
 /* End of Payment */
 
 @media only screen and (max-width: 768px) {
-    .checkout-items{
+    .checkout-itemstotal {
+        margin: 0;
+    }
+    .checkout-items {
         width: 100%;
     }
-    .checkout-paymentinfo{
-        width:100%;
-    }
-
-    .checkout-item-image{
-        border-style: none;
-        width: 90%;
-    }
-    .checkout-item-description{
-        text-align: center;
+    .checkout-paymentinfo {
         width: 100%;
     }
-
-    .checkout-item-quantity{
-        width: 40%;
-    }
-    
-    .checkout-item-price{
-        width: 100%;
-    }
-    
-    
 }
+
+@media only screen and (max-width: 425px) {
+        .checkout-itemstotal{
+            text-align: center;
+        }
+        h1.checkout-title {
+            margin: 0;
+        }
+        .checkout-items{
+            padding-bottom: 30px;
+        }
+        .checkout-item-image {
+            width: 100%;
+            border: none;
+            padding: 0;
+        }
+        .checkout-item-description {
+            width: 100%;
+            margin: 0;
+        }
+        .checkout-item-price {
+            width: 100%;
+            justify-content: left;
+            flex-direction: row;
+        }
+        .checkout-item-quantity {
+            width: 100%;
+            justify-content: left;
+            flex-direction: row;
+        }
+
+
+
+
+}
+/* @media (max-width:30em) {
+  
+} */
