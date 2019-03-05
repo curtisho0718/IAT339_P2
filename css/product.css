@@ -80,9 +80,14 @@ body{
 
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
     .cd-item {
         width: 100%;
     }
 
+}
+@media (max-width:30em) {
+    .cd-item {
+        width: 100%;
+    }
 }
