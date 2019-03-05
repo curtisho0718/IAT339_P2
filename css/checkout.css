@@ -203,3 +203,14 @@ input[type=text] {
 
 
 }
+@media (max-width:60em) {
+    .checkout-itemstotal {
+        margin: 0;
+    }
+    .checkout-items {
+        width: 100%;
+    } 
+    .checkout-paymentinfo {
+        width: 100%;
+    }
+}
