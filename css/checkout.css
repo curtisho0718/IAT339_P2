@@ -13,6 +13,7 @@ h1.detail {
     width: 80%;
     margin: auto;
     background-color: #fdf5e2;
+    padding-bottom: 100px; 
 }
 
 
@@ -40,7 +41,7 @@ h1.checkout-title {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    
+    padding-bottom: 50px;
 }
 
 .checkout-oneitem{
@@ -55,7 +56,7 @@ h1.checkout-title {
 }
 
 .checkout-item-image{
-    width: 35%;
+    width: 30%;
     /* border: solid black 1pt; */
     padding-right: 10px;
     border-right: 1pt black solid;
@@ -70,6 +71,7 @@ ul {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-left: 10px;
 }
 
 .checkout-item-quantity{
@@ -107,6 +109,7 @@ hr{
 .checkout-payment-container{
     width: 90%;
     margin: auto;
+    padding-bottom:50px; 
 }
 
 .checkout-payment-row1 {
@@ -116,9 +119,31 @@ hr{
 }
 
 h2.checkout-h2{
-    margin: 0;
+    margin: 0 0 10px 0;
+    padding-top: 10px;
     color: black;
+
 }
+
+.checkout-payment-button{
+    background-color: #50567D;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    width: 95%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+input[type=text] {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #50567D;
+    border-radius: 5px;
+  }
 
 /* End of Payment */
 

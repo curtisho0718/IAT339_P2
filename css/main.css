@@ -15,7 +15,7 @@ body {
   background-color:white;
 }
 
-.footer {
+.footer-stylize{
   display: flex;
   color: white;
   background-color: #000000;
@@ -25,7 +25,7 @@ body {
   padding: 10px 0 10px 0;
 }
 
-.footer div {
+.footer-stylize div {
   width: 20%;
   margin: 10px;
   min-width: 100px;
@@ -47,7 +47,7 @@ h1 {
 
 h2 {
   font-family: 'Oswald', sans-serif;
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
   font-size: 1.5em;
   color: #444444;
 
