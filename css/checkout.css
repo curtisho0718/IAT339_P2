@@ -203,8 +203,8 @@ input[type=text] {
 
 
 }
-@media (max-width:65em) {
-    .checkout-itemstotal{
+@media (max-width:60em) {
+     /* .checkout-itemstotal{
         text-align: center;
     }
     h1.checkout-title {
@@ -231,13 +231,13 @@ input[type=text] {
         width: 100%;
         justify-content: left;
         flex-direction: row;
-    }
+    } */
     .checkout-itemstotal {
         margin: 0;
     }
     .checkout-items {
         width: 100%;
-    }
+    } 
     .checkout-paymentinfo {
         width: 100%;
     }
