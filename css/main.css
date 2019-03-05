@@ -8,10 +8,10 @@
   margin: 10px;
   text-align: center;
 }
-#likeh1{
+.home-h2{
   font-family: 'Oswald', sans-serif;
   color: #444444;
-  margin-left: 50px;
+  margin-left: 15px;
   font-size: 1.7em;
 }
 
@@ -52,7 +52,7 @@ footer div {
 h1 {
   font-family: 'Oswald', sans-serif;
   color: #444444;
-  margin-left: 50px;
+  margin-left: 15px;
   font-size: 1.7em;
 }
 
