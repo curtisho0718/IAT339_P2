@@ -11,7 +11,7 @@
     flex-wrap: wrap;
     margin-top: 20px;
     padding: 10px;
-    background-color: #fdf5e2;;
+    background-color: #fdf5e2;
 
 }
 body {
@@ -70,6 +70,18 @@ li {
     margin-left: 40px; 
     padding: 5px 20px;
 
+}
+
+.productdetail-comment{
+    width: 80%;
+    padding: 20px 0px 20px 0px;
+    margin: auto;
+    background-color: #fdf5e2;
+}
+
+.productdetail-comment {
+    border-bottom: black solid;
+    /* border-top: black solid; */
 }
 
 @media only screen and (max-width: 768px) {
