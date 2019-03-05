@@ -360,7 +360,7 @@ main navigation
 
 
 @media only screen and (max-width: 768px) {
-  .footer div {
+  footer div {
     width: 100%;
 
   }
