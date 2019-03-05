@@ -13,7 +13,6 @@ h1.detail {
     width: 80%;
     margin: auto;
     background-color: #fdf5e2;
-    padding-bottom: 100px; 
 }
 
 
@@ -147,3 +146,30 @@ input[type=text] {
 
 /* End of Payment */
 
+@media only screen and (max-width: 768px) {
+    .checkout-items{
+        width: 100%;
+    }
+    .checkout-paymentinfo{
+        width:100%;
+    }
+
+    .checkout-item-image{
+        border-style: none;
+        width: 90%;
+    }
+    .checkout-item-description{
+        text-align: center;
+        width: 100%;
+    }
+
+    .checkout-item-quantity{
+        width: 40%;
+    }
+    
+    .checkout-item-price{
+        width: 100%;
+    }
+    
+    
+}
