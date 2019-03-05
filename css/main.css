@@ -109,6 +109,9 @@ code {
   display: block;
 }
 
+footer h1{
+color:white;
+}
 nav {
   /* margin: 20px 0px 0px 0px;
   padding: 0 0 10px 0;    */
