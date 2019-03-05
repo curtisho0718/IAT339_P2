@@ -4,6 +4,11 @@
   max-width: 100px;
 }
 
+#AboutJYP {
+  margin: 10px;
+  text-align: center;
+}
+
 figure {
   display: inline-table;
 }
@@ -362,7 +367,14 @@ main navigation
   footer div {
     width: 100%;
   }
+}
 
-
-
+@media only screen and (max-width:425px) {
+  nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+  }
 }
