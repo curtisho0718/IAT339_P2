@@ -16,15 +16,14 @@
 }
 
 
-h1{
-    color: white;
+
+h1.detail {
+    padding: 0px 0 30px 0;
+    border-bottom: black solid;
+    margin: 40px 0 20px 0;
+    color: black;
     /* margin: auto; */
     padding-top: 20px;
-}
-h1.detail {
-    margin-left: 0px;
-    padding: 0px;
-
 }
 h2.productdetail-h2{
     color: #444444;
@@ -67,17 +66,45 @@ li {
 
 }
 
-.productdetail-comment{
-    width: 80%;
-    padding: 20px 0px 20px 0px;
+.productdetail-commentsection{
+    width: 100%;
+    padding: 0px -5px 20px 20px;
     margin: auto;
-    background-color: #fdf5e2;
+    border-bottom: black solid;
 }
 
-.productdetail-comment {
-    border-bottom: black solid;
-    /* border-top: black solid; */
+label {
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.3em;
+    display: block;
+    margin-bottom: 20px;
 }
+
+input[type=text]{
+    width: 100%;
+    max-width: 20rem;
+    border: 0;
+    font-size: 1.1em;
+    outline: 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.productdetail-comment-button{
+    display: inline-block;
+    color: black;
+    font-size: 1.1em;
+    background-color: rgba(246, 242, 236, 0);
+    border-radius: 0.1em;
+    border-radius: 2em;
+    border: 0.1em solid #50567D;
+    padding: 0.5em 3em;
+ 
+}
+ /* Border bottom only */
+/* https://stackoverflow.com/questions/21807454/textfield-with-only-bottom-border */
+
 
 @media only screen and (max-width: 768px) {
     .product-detail-item{
